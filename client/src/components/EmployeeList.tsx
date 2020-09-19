@@ -67,8 +67,12 @@ const EmployeeList = ({
             gender,
             salary
         }
+        if (updateEmp.name !== "" &&
+            updateEmp.dateOfBirth !== "" &&
+            updateEmp.gender !== "" && updateEmp.salary !== "") {
+            dispatch(updateemp(updateEmp));
+        }
 
-        dispatch(updateemp(updateEmp));
         toggle()
 
     }

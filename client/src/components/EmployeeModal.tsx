@@ -37,8 +37,12 @@ const EmployeeModal = () => {
             gender,
             salary
         }
+        if (newEmployee.name !== "" &&
+            newEmployee.dateOfBirth !== "" &&
+            newEmployee.gender !== "" && newEmployee.salary !== "") {
 
-        dispatch(addemp(newEmployee));
+            dispatch(addemp(newEmployee));
+        }
         handleToggle(); // close modal
     }
 
