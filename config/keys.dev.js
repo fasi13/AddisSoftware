@@ -1,5 +1,5 @@
 module.exports = {
-    mongoURI: "mongodb+srv://Fasile:Dog.lov3r@cluster2.1bxnx.mongodb.net/addis?retryWrites=true&w=majority",
-    secretOrKey: "secreate"
+    mongoURI: "mongodb+srv://fasile:3r7ELZer8CJrSJmS@cluster0.ws4v3.mongodb.net/addis?retryWrites=true&w=majority",
+    secretOrKey: "FxUum76z"
 };
 
